@@ -1,8 +1,8 @@
 inherit qt5-qmake
 
 NAME="cutemaze"
-VERSION=1.1.1
-RELEASE=2
+VERSION=1.2.1
+RELEASE=1
 CATEGORY="Games"
 SUMMARY="Maze game"
 DESCRIPTION="CuteMaze is a simple, top-down game in which mazes are randomly
