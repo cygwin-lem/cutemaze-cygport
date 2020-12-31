@@ -1,0 +1,7 @@
+category: Debug
+requires: cygwin-debuginfo
+external-source: cutemaze
+sdesc: "Debug info for cutemaze"
+ldesc: "This package contains files necessary for debugging the
+cutemaze package with gdb."
+test:

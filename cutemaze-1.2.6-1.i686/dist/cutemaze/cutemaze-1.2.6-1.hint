@@ -1,0 +1,8 @@
+category: Games
+requires: cygwin libgcc1 libQt5Core5 libQt5Gui5 libQt5Svg5 libstdc++6 
+sdesc: "Maze game"
+ldesc: "CuteMaze is a simple, top-down game in which mazes are randomly
+generated using one of a choice of several different algorithms. You move the
+character through the maze while hunting for targets (cheese, by default); the
+game is won once all of these targets have been picked up."
+test:

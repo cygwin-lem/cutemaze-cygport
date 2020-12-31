@@ -1,0 +1,10 @@
+category: Games
+build-depends: cygport   libGL-devel  libQt5Core-devel  libQt5Gui-devel  libQt5Svg-devel
+sdesc: "Maze game"
+ldesc: "CuteMaze is a simple, top-down game in which mazes are randomly
+generated using one of a choice of several different algorithms. You move the
+character through the maze while hunting for targets (cheese, by default); the
+game is won once all of these targets have been picked up."
+skip:
+test:
+homepage: https://gottcode.org/cutemaze/
