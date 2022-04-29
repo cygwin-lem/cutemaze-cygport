@@ -11,6 +11,7 @@ character through the maze while hunting for targets (cheese, by default); the
 game is won once all of these targets have been picked up."
 HOMEPAGE="https://gottcode.org/cutemaze/"
 SRC_URI="https://gottcode.org/cutemaze/cutemaze-${VERSION}-src.tar.bz2"
+SRC_DIR="cutemaze-${VERSION}"
 
 CYGQMAKE5_ARGS="PREFIX=/usr"
 
