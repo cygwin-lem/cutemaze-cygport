@@ -1,7 +1,7 @@
-inherit qt5-qmake
+inherit cmake
 
 NAME="cutemaze"
-VERSION=1.2.6
+VERSION=1.3.3
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Maze game"
@@ -10,13 +10,12 @@ generated using one of a choice of several different algorithms. You move the
 character through the maze while hunting for targets (cheese, by default); the
 game is won once all of these targets have been picked up."
 HOMEPAGE="https://gottcode.org/cutemaze/"
-SRC_URI="https://gottcode.org/cutemaze/cutemaze-${VERSION}-src.tar.bz2"
-
-CYGQMAKE5_ARGS="PREFIX=/usr"
+SRC_URI="https://gottcode.org/cutemaze/cutemaze-${VERSION}.tar.bz2"
+LICENSE="GPL-3.0"
 
 BUILD_REQUIRES="\
   libGL-devel\
-  libQt5Core-devel\
-  libQt5Gui-devel\
-  libQt5Svg-devel\
+  libQt6Core-devel\
+  libQt6Gui-devel\
+  libQt6Svg-devel\
 "
